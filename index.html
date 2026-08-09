@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gaurav Kasaudhan - Portfolio & Coding Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="glowing-orb orb-1"></div>
+  <div class="glowing-orb orb-2"></div>
+
+  <div class="container">
+    
+    <!-- Hero & Portfolio Header -->
+    <header class="profile-hero animate-fade-in">
+      <div class="hero-left">
+        <div class="profile-avatar">
+          <span>GK</span>
+        </div>
+        <div class="profile-info">
+          <h1>Gaurav Kasaudhan</h1>
+          <p class="subtitle">Data Scientist & Quantitative Analyst</p>
+          <p class="tagline">BSc Computer Science & Data Analytics @ <span>IIT Patna</span></p>
+        </div>
+      </div>
+      
+      <div class="hero-right glass-card">
+        <div class="intro-badge"><i class="fa-solid fa-sparkles"></i> About Me</div>
+        <p class="intro-text">👋 I'm Gaurav, a Data Scientist focused on Machine Learning, Data Analytics, and Financial Data Science.</p>
+        <p class="intro-text">🚀 I build data-driven solutions and love solving complex problems.</p>
+        <div class="social-links">
+          <a href="https://github.com/gauravkasaudhan06" target="_blank" class="social-btn gh-btn" title="GitHub"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="https://leetcode.com/u/gauravk006/" target="_blank" class="social-btn lc-btn" title="LeetCode"><i class="fa-solid fa-code"></i> LeetCode</a>
+          <a href="https://www.geeksforgeeks.org/profile/gauravkasa0dfs" target="_blank" class="social-btn gfg-btn" title="GeeksforGeeks"><i class="fa-solid fa-graduation-cap"></i> GFG</a>
+          <a href="https://codeforces.com/profile/gauravkasaudhan206" target="_blank" class="social-btn cf-btn" title="Codeforces"><i class="fa-solid fa-chart-line"></i> Codeforces</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Skills & Tech Stack Section -->
+    <section class="skills-section animate-slide-up glass-card">
+      <h2><i class="fa-solid fa-laptop-code"></i> Technical Stack & Skills</h2>
+      <div class="skills-grid">
+        <div class="skills-category">
+          <h3><i class="fa-solid fa-chart-line text-cf"></i> Data Science & ML</h3>
+          <div class="tags-container">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Data Analytics</span>
+            <span class="skill-tag">Financial Data Science</span>
+            <span class="skill-tag">Quantitative Research</span>
+            <span class="skill-tag">Python (Pandas, NumPy, Scikit-Learn)</span>
+          </div>
+        </div>
+        <div class="skills-category">
+          <h3><i class="fa-solid fa-database text-gfg"></i> Core Engineering & DSA</h3>
+          <div class="tags-container">
+            <span class="skill-tag">Data Structures & Algorithms</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Problem Solving</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DSA & Coding Section Header -->
+    <div class="section-title animate-slide-up">
+      <h2><i class="fa-solid fa-brain"></i> DSA & Coding Dashboard</h2>
+      <p>Tracking competitive programming and problem-solving metrics</p>
+    </div>
+
+    <!-- Interactive Navigation Tabs -->
+    <nav class="platform-tabs animate-slide-up">
+      <button class="tab-btn active" data-platform="all">
+        <i class="fa-solid fa-cubes"></i> All Platforms
+      </button>
+      <button class="tab-btn" data-platform="leetcode">
+        <i class="fa-solid fa-code text-leetcode"></i> LeetCode
+      </button>
+      <button class="tab-btn" data-platform="gfg">
+        <i class="fa-solid fa-graduation-cap text-gfg"></i> GeeksforGeeks
+      </button>
+      <button class="tab-btn" data-platform="codeforces">
+        <i class="fa-solid fa-chart-line text-cf"></i> Codeforces
+      </button>
+    </nav>
+
+    <!-- Main Grid Dashboard -->
+    <main class="dashboard-grid">
+      
+      <!-- Key Statistics Summary Cards -->
+      <section class="summary-section animate-slide-up">
+        <div class="stat-card glass-card">
+          <div class="card-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <div class="card-content">
+            <h3>Problems Solved</h3>
+            <div class="stat-value" id="solved-count">--</div>
+            <p class="stat-desc">Across selected platforms</p>
+          </div>
+        </div>
+
+        <div class="stat-card glass-card">
+          <div class="card-icon text-streak"><i class="fa-solid fa-fire"></i></div>
+          <div class="card-content">
+            <h3>Current Streak</h3>
+            <div class="stat-value text-streak" id="current-streak">--</div>
+            <p class="stat-desc">Consecutive days active</p>
+          </div>
+        </div>
+
+        <div class="stat-card glass-card">
+          <div class="card-icon text-max-streak"><i class="fa-solid fa-trophy"></i></div>
+          <div class="card-content">
+            <h3>Longest Streak</h3>
+            <div class="stat-value text-max-streak" id="max-streak">--</div>
+            <p class="stat-desc">All-time record</p>
+          </div>
+        </div>
+
+        <div class="stat-card glass-card">
+          <div class="card-icon text-active-days"><i class="fa-solid fa-calendar-days"></i></div>
+          <div class="card-content">
+            <h3>Active Days</h3>
+            <div class="stat-value text-active-days" id="active-days">--</div>
+            <p class="stat-desc">Total days with submissions</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Submissions Heatmap Card -->
+      <section class="heatmap-section glass-card animate-slide-up">
+        <div class="card-header">
+          <h2><i class="fa-solid fa-calendar-alt"></i> Submission Calendar</h2>
+          <div class="calendar-legend">
+            <span>Less</span>
+            <span class="legend-box level-0"></span>
+            <span class="legend-box level-1"></span>
+            <span class="legend-box level-2"></span>
+            <span class="legend-box level-3"></span>
+            <span class="legend-box level-4"></span>
+            <span>More</span>
+          </div>
+        </div>
+        <div class="heatmap-container-outer">
+          <div class="heatmap-container" id="heatmap-grid">
+            <!-- Dynamically populated grid -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Two-column Section: Difficulty and Detailed stats -->
+      <div class="detail-columns animate-slide-up">
+        
+        <!-- Difficulty Distribution -->
+        <div class="glass-card difficulty-card">
+          <h2><i class="fa-solid fa-chart-pie"></i> Difficulty Distribution</h2>
+          <div class="difficulty-bars">
+            <div class="diff-bar-container">
+              <div class="diff-label">
+                <span>Easy</span>
+                <span id="easy-count">--</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-easy" id="easy-fill" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="diff-bar-container">
+              <div class="diff-label">
+                <span>Medium</span>
+                <span id="medium-count">--</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-medium" id="medium-fill" style="width: 0%"></div>
+              </div>
+            </div>
+
+            <div class="diff-bar-container">
+              <div class="diff-label">
+                <span>Hard</span>
+                <span id="hard-count">--</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-bar-fill fill-hard" id="hard-fill" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="difficulty-summary">
+            Difficulty breakdown of solved questions.
+          </div>
+        </div>
+
+        <!-- Extras / Platform specific extra details -->
+        <div class="glass-card extras-card">
+          <h2><i class="fa-solid fa-circle-info"></i> Platform Details</h2>
+          <div class="platform-meta-grid" id="platform-details">
+            <!-- Dynamically populated details based on selected tab -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer animate-fade-in">
+      <p>System automatically updates every 6 hours via GitHub Actions.</p>
+      <p class="last-updated">Last Synced: <span id="sync-time">Loading...</span></p>
+      <p><a href="https://github.com/gauravkasaudhan06/gauravkasaudhan06" target="_blank"><i class="fa-brands fa-github"></i> View Profile Repo</a></p>
+    </footer>
+  </div>
+
+  <div class="tooltip" id="heatmap-tooltip">Tooltip</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

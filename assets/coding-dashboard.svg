@@ -1,0 +1,54 @@
+<svg width="820" height="280" viewBox="0 0 820 280" version="1.1" xmlns="http://www.w3.org/2000/svg" style="background:#0d1117; font-family:'Segoe UI',Ubuntu,sans-serif; border-radius:12px; border:1px solid #30363d;">
+    <style>
+        .title { fill: #f0f6fc; font-size: 18px; font-weight: 700; }
+        .subtitle { fill: #8b949e; font-size: 12px; }
+        .header-line { stroke: #30363d; stroke-width: 1; }
+        .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8px; }
+        .stat-label { fill: #8b949e; font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+        .stat-value { fill: #f0f6fc; font-size: 24px; font-weight: 800; }
+        .stat-streak { fill: #ff9f43; font-size: 13px; font-weight: 600; }
+        .badge-lc { fill: #ffa116; font-size: 11px; font-weight: 700; }
+        .badge-gfg { fill: #2f8d46; font-size: 11px; font-weight: 700; }
+        .badge-cf { fill: #3182ce; font-size: 11px; font-weight: 700; }
+    </style>
+    
+    <!-- Header -->
+    <text x="25" y="35" class="title">🧠 Coding Progress Dashboard</text>
+    <text x="25" y="55" class="subtitle">Real-time stats synced from LeetCode, GFG &amp; Codeforces</text>
+    <line x1="25" y1="70" x2="795" y2="70" class="header-line" />
+    
+    <!-- Left Column: Unified Stats Card -->
+    <rect x="25" y="90" width="220" height="165" class="card-bg" />
+    <text x="45" y="120" class="stat-label">TOTAL PROBLEMS SOLVED</text>
+    <text x="45" y="155" class="stat-value" style="font-size:32px; fill:#58a6ff;">494</text>
+    
+    <text x="45" y="195" class="stat-label">COMBINED STREAK</text>
+    <text x="45" y="225" class="stat-value" style="fill:#ff9f43;">🔥 4 <tspan font-size="12" font-weight="600" fill="#8b949e">days</tspan></text>
+    
+    <!-- Middle Column: Platform Cards -->
+    <!-- LeetCode -->
+    <rect x="265" y="90" width="165" height="165" class="card-bg" />
+    <text x="285" y="115" class="badge-lc">🟠 LEETCODE</text>
+    <text x="285" y="150" class="stat-value">152</text>
+    <text x="285" y="170" class="stat-label">Solved</text>
+    <text x="285" y="205" class="stat-streak">🔥 3 days</text>
+    <text x="285" y="235" class="stat-label" style="font-size:9px;">Max: 12d streak</text>
+
+    <!-- GFG -->
+    <rect x="445" y="90" width="165" height="165" class="card-bg" />
+    <text x="465" y="115" class="badge-gfg">🟢 GEEKFORGEEKS</text>
+    <text x="465" y="150" class="stat-value">134</text>
+    <text x="465" y="170" class="stat-label">Solved</text>
+    <text x="465" y="205" class="stat-streak" style="fill: #2f8d46;">🔥 0 days</text>
+    <text x="465" y="235" class="stat-label" style="font-size:9px;">Score: 0</text>
+
+    <!-- Codeforces -->
+    <rect x="625" y="90" width="165" height="165" class="card-bg" />
+    <text x="645" y="115" class="badge-cf">🔵 CODEFORCES</text>
+    <text x="645" y="150" class="stat-value">208</text>
+    <text x="645" y="170" class="stat-label">Solved</text>
+    <text x="645" y="205" class="stat-streak" style="fill: #3182ce;">🔥 0 days</text>
+    <text x="645" y="235" class="stat-label" style="font-size:9px;">Max: 62d streak</text>
+
+    </svg>
+    
