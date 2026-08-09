@@ -181,9 +181,9 @@ function renderPlatformDetails(platform, data) {
     const cfSolved = dashboardData.codeforces.solved;
     
     details = [
+      { label: "Codeforces solved", value: cfSolved },
       { label: "LeetCode solved", value: lcSolved },
       { label: "GeeksforGeeks solved", value: gfgSolved },
-      { label: "Codeforces solved", value: cfSolved },
       { label: "Combined Active Days", value: data.active_dates.length }
     ];
   } else if (platform === "leetcode") {

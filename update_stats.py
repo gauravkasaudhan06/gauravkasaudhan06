@@ -356,29 +356,29 @@ def generate_svg(data):
     <text x="45" y="225" class="stat-value" style="fill:#ff9f43;">🔥 {streak_all} <tspan font-size="12" font-weight="600" fill="#8b949e">days</tspan></text>
     
     <!-- Middle Column: Platform Cards -->
-    <!-- LeetCode -->
+    <!-- Codeforces -->
     <rect x="265" y="90" width="165" height="165" class="card-bg" />
-    <text x="285" y="115" class="badge-lc">🟠 LEETCODE</text>
-    <text x="285" y="150" class="stat-value">{solved_lc}</text>
+    <text x="285" y="115" class="badge-cf">🔵 CODEFORCES</text>
+    <text x="285" y="150" class="stat-value">{solved_cf}</text>
     <text x="285" y="170" class="stat-label">Solved</text>
-    <text x="285" y="205" class="stat-streak">🔥 {streak_lc} days</text>
-    <text x="285" y="235" class="stat-label" style="font-size:9px;">Max: {data["leetcode"]["longest_streak"]}d streak</text>
+    <text x="285" y="205" class="stat-streak">🔥 {streak_cf} days</text>
+    <text x="285" y="235" class="stat-streak">🏆 {data["codeforces"]["longest_streak"]} days max</text>
+
+    <!-- LeetCode -->
+    <rect x="445" y="90" width="165" height="165" class="card-bg" />
+    <text x="465" y="115" class="badge-lc">🟠 LEETCODE</text>
+    <text x="465" y="150" class="stat-value">{solved_lc}</text>
+    <text x="465" y="170" class="stat-label">Solved</text>
+    <text x="465" y="205" class="stat-streak">🔥 {streak_lc} days</text>
+    <text x="465" y="235" class="stat-streak">🏆 {data["leetcode"]["longest_streak"]} days max</text>
 
     <!-- GFG -->
-    <rect x="445" y="90" width="165" height="165" class="card-bg" />
-    <text x="465" y="115" class="badge-gfg">🟢 GEEKFORGEEKS</text>
-    <text x="465" y="150" class="stat-value">{solved_gfg}</text>
-    <text x="465" y="170" class="stat-label">Solved</text>
-    <text x="465" y="205" class="stat-streak" style="fill: #2f8d46;">🔥 {streak_gfg} days</text>
-    <text x="465" y="235" class="stat-label" style="font-size:9px;">Score: {data["gfg"].get("score", 0)}</text>
-
-    <!-- Codeforces -->
     <rect x="625" y="90" width="165" height="165" class="card-bg" />
-    <text x="645" y="115" class="badge-cf">🔵 CODEFORCES</text>
-    <text x="645" y="150" class="stat-value">{solved_cf}</text>
+    <text x="645" y="115" class="badge-gfg">🟢 GEEKFORGEEKS</text>
+    <text x="645" y="150" class="stat-value">{solved_gfg}</text>
     <text x="645" y="170" class="stat-label">Solved</text>
-    <text x="645" y="205" class="stat-streak" style="fill: #3182ce;">🔥 {streak_cf} days</text>
-    <text x="645" y="235" class="stat-label" style="font-size:9px;">Max: {data["codeforces"]["longest_streak"]}d streak</text>
+    <text x="645" y="205" class="stat-streak">🔥 {streak_gfg} days</text>
+    <text x="645" y="235" class="stat-streak">🏆 {data["gfg"]["longest_streak"]} days max</text>
 
     </svg>
     """

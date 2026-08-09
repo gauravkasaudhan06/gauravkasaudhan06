@@ -38,5 +38,3 @@ Here is a live summary of my solved problems across platforms, dynamically updat
 - **Interests**: Machine Learning, Data Analytics, Quantitative Analysis, DSA
 - **Tools**: Git, Jupyter Notebook, VS Code
 
----
-*Created and maintained by [Antigravity AI Assistant](https://github.com/google-deepmind) pairing with Gaurav.*

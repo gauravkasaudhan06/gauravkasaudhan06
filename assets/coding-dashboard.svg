@@ -26,29 +26,29 @@
     <text x="45" y="225" class="stat-value" style="fill:#ff9f43;">🔥 4 <tspan font-size="12" font-weight="600" fill="#8b949e">days</tspan></text>
     
     <!-- Middle Column: Platform Cards -->
-    <!-- LeetCode -->
+    <!-- Codeforces -->
     <rect x="265" y="90" width="165" height="165" class="card-bg" />
-    <text x="285" y="115" class="badge-lc">🟠 LEETCODE</text>
-    <text x="285" y="150" class="stat-value">152</text>
+    <text x="285" y="115" class="badge-cf">🔵 CODEFORCES</text>
+    <text x="285" y="150" class="stat-value">208</text>
     <text x="285" y="170" class="stat-label">Solved</text>
-    <text x="285" y="205" class="stat-streak">🔥 3 days</text>
-    <text x="285" y="235" class="stat-label" style="font-size:9px;">Max: 12d streak</text>
+    <text x="285" y="205" class="stat-streak">🔥 0 days</text>
+    <text x="285" y="235" class="stat-streak">🏆 62 days max</text>
+
+    <!-- LeetCode -->
+    <rect x="445" y="90" width="165" height="165" class="card-bg" />
+    <text x="465" y="115" class="badge-lc">🟠 LEETCODE</text>
+    <text x="465" y="150" class="stat-value">152</text>
+    <text x="465" y="170" class="stat-label">Solved</text>
+    <text x="465" y="205" class="stat-streak">🔥 3 days</text>
+    <text x="465" y="235" class="stat-streak">🏆 12 days max</text>
 
     <!-- GFG -->
-    <rect x="445" y="90" width="165" height="165" class="card-bg" />
-    <text x="465" y="115" class="badge-gfg">🟢 GEEKFORGEEKS</text>
-    <text x="465" y="150" class="stat-value">134</text>
-    <text x="465" y="170" class="stat-label">Solved</text>
-    <text x="465" y="205" class="stat-streak" style="fill: #2f8d46;">🔥 0 days</text>
-    <text x="465" y="235" class="stat-label" style="font-size:9px;">Score: 0</text>
-
-    <!-- Codeforces -->
     <rect x="625" y="90" width="165" height="165" class="card-bg" />
-    <text x="645" y="115" class="badge-cf">🔵 CODEFORCES</text>
-    <text x="645" y="150" class="stat-value">208</text>
+    <text x="645" y="115" class="badge-gfg">🟢 GEEKFORGEEKS</text>
+    <text x="645" y="150" class="stat-value">134</text>
     <text x="645" y="170" class="stat-label">Solved</text>
-    <text x="645" y="205" class="stat-streak" style="fill: #3182ce;">🔥 0 days</text>
-    <text x="645" y="235" class="stat-label" style="font-size:9px;">Max: 62d streak</text>
+    <text x="645" y="205" class="stat-streak">🔥 0 days</text>
+    <text x="645" y="235" class="stat-streak">🏆 0 days max</text>
 
     </svg>
     
