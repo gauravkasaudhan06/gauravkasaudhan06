@@ -1,6 +1,7 @@
 # Hi 👋, I'm Gaurav Kasaudhan
 
-I'm a **Computer Science & Data Analytics** student at **IIT Patna**. I am highly passionate about Quantitative Research, Machine Learning, and Data Structures & Algorithms.
+Hi, 👋 I'm Gaurav, a Data Scientist focused on Machine Learning, Data Analytics, and Financial Data Science.
+🚀 I build data-driven solutions and love solving complex problems.
 
 ---
 
