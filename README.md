@@ -4,9 +4,6 @@ I'm a **Computer Science & Data Analytics** student at **IIT Patna**. I am highl
 
 ---
 
-## 🧠 Coding Progress Dashboard
-
-Here is a live summary of my solved problems across platforms, dynamically updated every 6 hours via GitHub Actions.
 
 ![Coding Progress Dashboard](./assets/coding-dashboard.svg)
 
