@@ -32,7 +32,7 @@ Here is a live summary of my solved problems across platforms, dynamically updat
 
 ## 💻 Tech Stack & Interests
 
-- **Languages**: Python, C++, SQL, JavaScript, HTML/CSS
-- **Interests**: Machine Learning, Data Analytics, Quantitative Analysis, DSA
+- **Languages**: Python, SQL, JavaScript, HTML/CSS
+- **Interests**: Machine Learning, Artificial Intelligence, Data Analytics, Quantitative Analysis, DSA
 - **Tools**: Git, Jupyter Notebook, VS Code
 
