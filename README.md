@@ -10,8 +10,6 @@ Here is a live summary of my solved problems across platforms, dynamically updat
 
 ![Coding Progress Dashboard](./assets/coding-dashboard.svg)
 
-### [🔗 Click here to view the Interactive Coding Analytics Dashboard](https://gauravkasaudhan06.github.io/gauravkasaudhan06/)
-*The interactive dashboard features platform filtering, difficulty metrics, active days, and a detailed submissions calendar heatmap.*
 
 ---
 
