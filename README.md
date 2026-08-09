@@ -1,6 +1,6 @@
 # Hi 👋, I'm Gaurav Kasaudhan
 
-Hi, 👋 I'm Gaurav, a Data Scientist focused on Machine Learning, Data Analytics, and Financial Data Science.
+A Data Scientist focused on Machine Learning, Data Analytics, and Financial Data Science.
 🚀 I build data-driven solutions and love solving complex problems.
 
 ---
