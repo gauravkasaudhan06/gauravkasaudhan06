@@ -23,7 +23,7 @@
     <text x="45" y="155" class="stat-value" style="font-size:32px; fill:#58a6ff;">494</text>
     
     <text x="45" y="195" class="stat-label">COMBINED STREAK</text>
-    <text x="45" y="225" class="stat-value" style="fill:#ff9f43;">🔥 4 <tspan font-size="12" font-weight="600" fill="#8b949e">days</tspan></text>
+    <text x="45" y="225" class="stat-value" style="fill:#ff9f43;">🔥 0 <tspan font-size="12" font-weight="600" fill="#8b949e">days</tspan></text>
     
     <!-- Middle Column: Platform Cards -->
     <!-- Codeforces -->
@@ -39,7 +39,7 @@
     <text x="465" y="115" class="badge-lc">🟠 LEETCODE</text>
     <text x="465" y="150" class="stat-value">152</text>
     <text x="465" y="170" class="stat-label">Solved</text>
-    <text x="465" y="205" class="stat-streak">🔥 3 days</text>
+    <text x="465" y="205" class="stat-streak">🔥 0 days</text>
     <text x="465" y="235" class="stat-streak">🏆 12 days max</text>
 
     <!-- GFG -->
