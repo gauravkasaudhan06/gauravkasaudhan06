@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-06 15:59:16 IST",
+  "last_updated": "2026-09-06 20:36:08 IST",
   "all": {
     "solved": 495,
-    "easy": 342,
-    "medium": 147,
+    "easy": 341,
+    "medium": 148,
     "hard": 6,
     "current_streak": 0,
     "longest_streak": 64,
@@ -217,8 +217,8 @@
   },
   "gfg": {
     "solved": 134,
-    "easy": 111,
-    "medium": 22,
+    "easy": 110,
+    "medium": 23,
     "hard": 1,
     "current_streak": 0,
     "longest_streak": 0,
