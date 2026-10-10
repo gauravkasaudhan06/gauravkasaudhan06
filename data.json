@@ -1,11 +1,11 @@
 {
-  "last_updated": "2026-10-10 17:34:31 IST",
+  "last_updated": "2026-10-11 02:47:29 IST",
   "all": {
     "solved": 497,
     "easy": 342,
     "medium": 149,
     "hard": 6,
-    "current_streak": 1,
+    "current_streak": 0,
     "longest_streak": 64,
     "active_dates": [
       "2025-12-22",
@@ -214,7 +214,7 @@
       "2026-08-16",
       "2026-10-09"
     ],
-    "current_streak": 1,
+    "current_streak": 0,
     "longest_streak": 12
   },
   "gfg": {
@@ -542,7 +542,7 @@
       "2026-02-14",
       "2025-12-22"
     ],
-    "current_streak": 1,
+    "current_streak": 0,
     "longest_streak": 62
   }
 }
